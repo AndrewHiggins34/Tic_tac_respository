@@ -6,9 +6,9 @@ PE4 Tic Tac Toe repo
 
 
 Our code creates a 2d Char board initalized to: (disregard all '#' for the duration of this README.md)
-#- #- #-
-#- #- #-
-#- #- #-
+- - -
+- - -
+- - -
 
 Then our code allows keyboard input 1-9 to designate squares as such
 #1 #2 #3
