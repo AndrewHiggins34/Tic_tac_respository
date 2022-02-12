@@ -27,8 +27,26 @@ void DisplayBoard(char** board) {
 	}
 }
 
+int GetPlayerChoice() {
+	bool valid = false;
+	int i;
+	while(valid == false) {
+		cout << "Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row)." << endl;
+		cin >> i;
+		if(i > 0 && i < 10) {
+			valid = true;
+		}
+		else {
+			cout << "Invalid input. Please try again." << endl;
+		}
+	}
+	return i;
+}
+
 
 int main(){
 	char** board = CreateBoard();
 	DisplayBoard(board);
+	int i = GetPlayerChoice();
+	cout << i << endl;
 }
