@@ -14,8 +14,36 @@ char** CreateBoard(){
 	return board;
 }
 
-void PlaceMarker(int i, int j, char** board char choice){
-	board[i][j] = choice;
+void PlaceMarker(int loc, char** board, char choice){
+	switch(loc) {
+		case 1:
+			board[0][0] = choice;
+			break;
+		case 2:
+			board[0][1] = choice;
+			break;
+		case 3:
+			board[0][2] = choice;
+			break;
+		case 4: 
+			board[1][0] = choice;
+			break;
+		case 5:
+			board[1][1] = choice;
+			break;
+		case 6:
+			board[1][2] = choice;
+			break;
+		case 7:
+			board[2][0] = choice;
+			break;
+		case 8:
+			board[2][1] = choice;
+			break;
+		case 9:
+			board[2][2] = choice;
+			break;
+	}
 }
 
 void DisplayBoard(char** board) {
@@ -47,6 +75,40 @@ int GetPlayerChoice() {
 int main(){
 	char** board = CreateBoard();
 	DisplayBoard(board);
+
 	int i = GetPlayerChoice();
-	cout << i << endl;
+	PlaceMarker(i, board, 'X');
+	DisplayBoard(board);
+
+	int i = GetPlayerChoice();
+	PlaceMarker(i, board, 'O');
+	DisplayBoard(board);
+
+	int i = GetPlayerChoice();
+	PlaceMarker(i, board, 'X');
+	DisplayBoard(board);
+
+	int i = GetPlayerChoice();
+	PlaceMarker(i, board, 'O');
+	DisplayBoard(board);
+
+	int i = GetPlayerChoice();
+	PlaceMarker(i, board, 'X');
+	DisplayBoard(board);
+
+	int i = GetPlayerChoice();
+	PlaceMarker(i, board, 'O');
+	DisplayBoard(board);
+
+	int i = GetPlayerChoice();
+	PlaceMarker(i, board, 'X');
+	DisplayBoard(board);
+
+	int i = GetPlayerChoice();
+	PlaceMarker(i, board, 'O');
+	DisplayBoard(board);
+
+	int i = GetPlayerChoice();
+	PlaceMarker(i, board, 'X');
+	DisplayBoard(board);
 }
