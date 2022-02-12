@@ -7,7 +7,7 @@ PE4 Tic Tac Toe repo
 
 Our code creates a 2d Char board initalized to: (disregard all '#' for the duration of this README.md)
 
-. . .
+- - -
 
 . . .
 
