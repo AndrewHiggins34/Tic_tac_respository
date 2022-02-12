@@ -1,0 +1,48 @@
+---
+---
+---
+Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row).
+1
+X--
+---
+---
+Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row).
+9
+X--
+---
+--O
+Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row).
+4
+X--
+X--
+--O
+Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row).
+7
+X--
+X--
+O-O
+Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row).
+8
+X--
+X--
+OXO
+Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row).
+5
+X--
+XO-
+OXO
+Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row).
+2
+XX-
+XO-
+OXO
+Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row).
+3
+XXO
+XO-
+OXO
+Please enter an integer 1-9 (1, 2, 3: row, 4, 5, 6: middle row, 7, 8, 9: bottom row).
+6
+XXO
+XOX
+OXO

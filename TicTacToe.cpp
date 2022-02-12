@@ -80,35 +80,35 @@ int main(){
 	PlaceMarker(i, board, 'X');
 	DisplayBoard(board);
 
-	int i = GetPlayerChoice();
+	i = GetPlayerChoice();
 	PlaceMarker(i, board, 'O');
 	DisplayBoard(board);
 
-	int i = GetPlayerChoice();
+	i = GetPlayerChoice();
 	PlaceMarker(i, board, 'X');
 	DisplayBoard(board);
 
-	int i = GetPlayerChoice();
+	i = GetPlayerChoice();
 	PlaceMarker(i, board, 'O');
 	DisplayBoard(board);
 
-	int i = GetPlayerChoice();
+	i = GetPlayerChoice();
 	PlaceMarker(i, board, 'X');
 	DisplayBoard(board);
 
-	int i = GetPlayerChoice();
+	i = GetPlayerChoice();
 	PlaceMarker(i, board, 'O');
 	DisplayBoard(board);
 
-	int i = GetPlayerChoice();
+	i = GetPlayerChoice();
 	PlaceMarker(i, board, 'X');
 	DisplayBoard(board);
 
-	int i = GetPlayerChoice();
+	i = GetPlayerChoice();
 	PlaceMarker(i, board, 'O');
 	DisplayBoard(board);
 
-	int i = GetPlayerChoice();
+	i = GetPlayerChoice();
 	PlaceMarker(i, board, 'X');
 	DisplayBoard(board);
 }
